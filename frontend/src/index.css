@@ -1,0 +1,23 @@
+@tailwind base;
+@tailwind components;
+@tailwind utilities;
+
+html, body, #root {
+  height: 100%;
+}
+
+body {
+  font-family: "Inter", system-ui, sans-serif;
+  color: #211C30;
+  background: linear-gradient(160deg, #F7F2FB 0%, #FDF1F5 55%, #FCE4EC 100%);
+  background-attachment: fixed;
+}
+
+::selection {
+  background: #C9B7E6;
+  color: #211C30;
+}
+
+/* thin, quiet scrollbar for the chat pane */
+.scroll-thin::-webkit-scrollbar { width: 6px; }
+.scroll-thin::-webkit-scrollbar-thumb { background: #E4D8F1; border-radius: 999px; }
