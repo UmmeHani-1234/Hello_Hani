@@ -8,6 +8,7 @@ const SUGGESTIONS = [
   "How's your day going?",
   "What are you doing today?",
   "What's on your mind?",
+  "what do you want to know about Hani?",
 ];
 
 export default function App() {
